@@ -27,7 +27,9 @@ html{
 }
 
 .grid__full-width{
-    width: 100%;
+    width: 1425px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .grid__row{
@@ -36,6 +38,6 @@ html{
 }
 
 .grid__col-2-5{
-    padding-right: 5px;
-    width: 20%;
+    padding-right: 10px;
+    width: 25%;
 }
