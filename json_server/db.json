@@ -1,0 +1,88 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kien thuc cho nguoi moi bat dau",
+      "description": "Kien thuc co ban danh cho nguoi moi, nguoi moi bat dau"
+    },
+    {
+      "name": "Xay dung web với nodejs 2",
+      "description": "1 Xay dung web với nodejs cho nguoi moi",
+      "id": 2
+    },
+    {
+      "name": "Thiết kế web responsive",
+      "description": "Khoa hoc nay giup ban responsive 1 trang web",
+      "id": 3
+    },
+    {
+      "name": "Xay dung web với nodejs 3",
+      "description": "1 Xay dung web với nodejs cho nguoi moi",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Shirt",
+      "category": "Watch",
+      "image": "/image/18.jpg",
+      "price": 120,
+      "countInStock": 10,
+      "brand": "Apple",
+      "description": "high quality product"
+    },
+    {
+      "id": 2,
+      "name": "Adidas Fit Shirt",
+      "category": "Shirts",
+      "image": "/image/9.jpg",
+      "price": 100,
+      "countInStock": 20,
+      "brand": "Adidas",
+      "description": "high quality product"
+    },
+    {
+      "id": 3,
+      "name": "Lacoste Free Shirt",
+      "category": "Shirts",
+      "image": "/image/10.jpg",
+      "price": 220,
+      "countInStock": 0,
+      "brand": "Lacoste",
+      "description": "high quality product"
+    },
+    {
+      "id": 4,
+      "name": "Nike Slim Pant",
+      "category": "Pants",
+      "image": "/image/14.jpg",
+      "price": 78,
+      "countInStock": 15,
+      "brand": "Nike",
+      "description": "high quality product"
+    },
+    {
+      "id": 5,
+      "name": "Puma Slim Pant",
+      "category": "Pants",
+      "image": "/image/15.jpg",
+      "price": 65,
+      "countInStock": 5,
+      "brand": "Puma",
+      "description": "high quality product"
+    },
+    {
+      "id": 6,
+      "name": "Adidas Fit Pant",
+      "category": "Pants",
+      "image": "/image/16.jpg",
+      "price": 139,
+      "countInStock": 12,
+      "brand": "Adidas",
+      "rating": 4.5,
+      "numReviews": 15,
+      "description": "high quality product"
+    }
+  ]
+}
