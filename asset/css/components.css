@@ -1,0 +1,103 @@
+input{
+  height: 3.4rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* TEXT */
+.text-orange{
+  color: var(--primary-color);
+}
+/* TEXT */
+
+/* CHECKBOX */
+.checkbox{
+  display: none;
+}
+.checkbox-toggle{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+  border-radius: 5px;
+}
+.checkbox:checked + .checkbox-toggle{
+  background-color: #FA6400;
+}
+/* END CHECKBOX */
+
+
+/* RADIO BTN */
+.radio-btn{
+  display: none;
+}
+.radio-btn-container{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+}
+.radio-toggle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+.radio-btn:checked + .radio-toggle{
+  background-color: #FA6400;
+}
+/* END RADIO BTN */
+
+
+/* BUTTON */
+button + button {
+  margin-left: 1.5rem;
+}
+.button{
+  outline: none;
+  user-select: none;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+}
+.button:hover{
+  opacity: 0.8;
+}
+.btn--primary {
+  background-color: #FA6400;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+.btn--secondary{
+  background-color: var(--text-color);
+  border-radius: 5px;
+  color: var(--white-color);
+}
+.btn--outline{
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  color: #5f5f5f;
+}
+/* END BUTTON */
+
+
+/* LINKS */
+.link-url{
+  color: var(--primary-color) !important; 
+}
+/* END LINKS */
+
+
+.modal{
+  font-size: 1.6rem;
+}
